@@ -7,6 +7,12 @@ class importImages extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Hello World"),
+          actions: [
+          IconButton(
+            icon: const Icon(Icons.info_outline),
+            onPressed: () => {},
+          )
+    ]
       ),
       body: Container(
         margin : const EdgeInsets.only(right: 5, left: 5),
