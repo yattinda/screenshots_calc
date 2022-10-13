@@ -19,7 +19,7 @@ class MyApp extends ConsumerWidget {
       return MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData.light(),
-        home: importImages(),
+        home: ImportImages(),
       );
   }
 }
